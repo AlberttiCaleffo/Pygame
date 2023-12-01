@@ -33,13 +33,13 @@ while True:
         #         y += 20
     
     if pygame.key.get_pressed()[K_a]:
-        x -= 20
+        x -= 10
     if pygame.key.get_pressed()[K_d]:
-        x += 20
+        x += 10
     if pygame.key.get_pressed()[K_w]:
-        y -= 20
+        y -= 10
     if pygame.key.get_pressed()[K_s]:
-        y += 20
+        y += 10
                         
     pygame.draw.rect(tela, (255, 0, 0), (x, y, 40, 50))
 
